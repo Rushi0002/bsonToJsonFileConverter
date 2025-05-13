@@ -1,0 +1,21 @@
+{
+  "name": "bsontojsonfileconverter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Rushikesh Vyawhare",
+  "license": "ISC",
+  "description": "Convert BSON files to JSON using drag and drop",
+  "dependencies": {
+    "bson": "^6.10.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
