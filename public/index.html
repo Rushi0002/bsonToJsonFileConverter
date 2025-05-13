@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BSON to JSON Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Page Title -->
+      <h1 id="title">🧩 BSON to JSON File Converter</h1>
+
+      <!-- Drag & Drop Zone -->
+      <div id="drop-zone">
+        Drag & drop a BSON file here or click to select.
+        <input type="file" id="file-input" accept=".bson" />
+      </div>
+
+      <!-- Progress Indicator -->
+      <div id="progress" class="hidden">
+        <div class="loader"></div>
+        <span>Processing...</span>
+      </div>
+
+      <!-- Status Message -->
+      <div id="status-message" class="hidden"></div>
+
+      <!-- Always-visible Download Button -->
+      <button id="download-link">⬇️ Download JSON File</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
