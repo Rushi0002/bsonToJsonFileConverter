@@ -5,7 +5,7 @@ const path = require("path");
 const convertBsonToJson = require("./convertBson");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Path to save JSON files
 const JSON_DIR = path.join(__dirname, "jsonFiles");
